@@ -28,7 +28,7 @@ const httpServer = net.createServer(connection => {
             let v = document.getElementById("message").value
             ws.send(v);
             document.getElementById("nope").innerHTML = document.getElementById("nope").innerHTML + "</br> Me: "+ v;
-          } 
+          }
         </script>
         <br/>
         <label for="lname">Skriv melding:</label>
